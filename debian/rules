@@ -2,3 +2,15 @@
 
 %:
 	dh $@
+
+pkg_data=usr/share/libjxl-testdata
+
+override_dh_install:
+	dh_install dots $(pkg_data)
+	dh_install external $(pkg_data)
+	dh_install jxl $(pkg_data)
+	dh_install oss-fuzz $(pkg_data)
+	dh_install position_encoding $(pkg_data)
+
+get-orig-source:
+	uscan --download --force-download --rename

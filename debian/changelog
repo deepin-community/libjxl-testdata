@@ -1,5 +1,51 @@
-template-repository (1.0-1) unstable; urgency=medium
+libjxl-testdata (0.0~git20230110.d6168ff-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version 0.0~git20230110.d6168ff
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Mathieu Malaterre <malat@debian.org>  Thu, 26 Jan 2023 09:38:40 +0100
+
+libjxl-testdata (0.0~git20221128.81c7e52-1) unstable; urgency=medium
+
+  * d/control: Mark libjxl-testdata Multi-Arch: foreign
+  * New upstream version 0.0~git20221128.81c7e52
+
+ -- Mathieu Malaterre <malat@debian.org>  Mon, 02 Jan 2023 15:32:47 +0100
+
+libjxl-testdata (0.0~git20221118.56af108-1) unstable; urgency=medium
+
+  * New upstream version 0.0~git20221118.56af108
+
+ -- Mathieu Malaterre <malat@debian.org>  Mon, 21 Nov 2022 14:01:42 +0100
+
+libjxl-testdata (0.0~git20221102.b103dac-1) unstable; urgency=medium
+
+  * New upstream version 0.0~git20221102.b103dac
+
+ -- Mathieu Malaterre <malat@debian.org>  Tue, 08 Nov 2022 09:06:25 +0100
+
+libjxl-testdata (0.0~git20220711.d81acac-2) unstable; urgency=medium
+
+  * d/control: Bump Std-Vers to 4.6.1 no changes needed
+  * d/rules: Add missing oss-fuzz directory
+
+ -- Mathieu Malaterre <malat@debian.org>  Mon, 22 Aug 2022 14:06:38 +0200
+
+libjxl-testdata (0.0~git20220711.d81acac-1) unstable; urgency=medium
+
+  * New upstream version 0.0~git20220711.d81acac
+
+ -- Mathieu Malaterre <malat@debian.org>  Tue, 02 Aug 2022 11:13:34 +0200
+
+libjxl-testdata (0.0~git20220615.f5158aa-1) unstable; urgency=medium
+
+  * New upstream version 0.0~git20220615.f5158aa
+  * d/copyright: Update copyright to latest folder change
+  * d/rules: Update install rule with latest folder change
+
+ -- Mathieu Malaterre <malat@debian.org>  Mon, 04 Jul 2022 08:53:34 +0200
+
+libjxl-testdata (0.0~git20220408.3c7b286+dfsg-1) unstable; urgency=medium
+
+  * Initial release (Closes: #1009304)
+
+ -- Mathieu Malaterre <malat@debian.org>  Fri, 15 Apr 2022 08:58:25 +0200
